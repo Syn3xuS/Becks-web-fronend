@@ -6,10 +6,21 @@ main > section {
 	flex: 1;
 	margin: 0 auto;
 	width: 85%;
-	padding-block: 15px;
+	padding-block: var(--section-padding-block-d);
 }
 
 main > section + section {
 	border-top: 1px solid transparent;
 	border-image: radial-gradient(circle at center, #00c0fe, transparent 91%) 1;
+}
+@media (max-width: 768px) {
+	main > section {
+		padding-block: var(--section-padding-block-m);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	main > section {
+		padding-block: var(--section-padding-block-t);
+	}
 }
