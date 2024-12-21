@@ -19,6 +19,15 @@ main > section > * {
 	position: relative;
 	z-index: 2;
 }
+
+.text-center {
+	text-align: center;
+}
+.text-max-1200px {
+	width: 90%;
+	max-width: 1200px;
+}
+
 .banner {
 	position: relative;
 	z-index: 1;
@@ -30,7 +39,7 @@ main > section > * {
 .banner > * {
 	display: block;
 	width: 90%;
-	max-width: 500px;
+	max-width: 900px;
 }
 
 .banner-rotate {

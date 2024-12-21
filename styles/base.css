@@ -7,16 +7,7 @@
 * {
 	box-sizing: border-box;
 }
-a {
-	text-decoration: none;
-}
 
-a:hover {
-	color: var(--blue-text);
-}
-ul {
-	padding: 0;
-}
 html {
 	min-height: 100%;
 	width: 100%;
@@ -34,4 +25,88 @@ body {
 	padding: 0;
 	display: flex;
 	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--blue-text);
+}
+
+ul {
+	padding: 0;
+}
+
+.fs1 {
+	font-size: var(--fs1-d);
+}
+
+.fs2 {
+	font-size: var(--fs2-d);
+}
+
+.fs3 {
+	font-size: var(--fs3-d);
+}
+
+p {
+	font-size: var(--fs4-d);
+}
+
+.f-onest {
+	font-family: "Onest", sans-serif;
+}
+.gray-text {
+	color: var(--gray-text);
+}
+
+.card-row-column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-margin {
+	margin: 32px 50px;
+}
+
+@media (max-width: 768px) {
+	.card-row-column {
+		flex-direction: column;
+	}
+
+	.fs1 {
+		font-size: var(--fs1-m);
+	}
+
+	.fs2 {
+		font-size: var(--fs2-m);
+	}
+
+	.fs3 {
+		font-size: var(--fs3-m);
+	}
+
+	p {
+		font-size: var(--fs4-m);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.fs1 {
+		font-size: var(--fs1-t);
+	}
+
+	.fs3 {
+		font-size: var(--fs3-t);
+	}
+
+	.fs2 {
+		font-size: var(--fs2-t);
+	}
+	p {
+		font-size: var(--fs4-t);
+	}
 }
