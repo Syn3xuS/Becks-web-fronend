@@ -105,6 +105,7 @@ nav ul.menu li a:hover {
 	nav ul.menu.active {
 		display: flex;
 		position: absolute;
+		z-index: 9999;
 		top: 63px;
 		left: 0;
 		width: 100%;
