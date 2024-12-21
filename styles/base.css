@@ -1,0 +1,31 @@
+@import url("./root.css");
+
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+}
+html {
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "TTInterfaces", sans-serif;
+	background-color: var(--background-page);
+	color: var(--white-text);
+}
+
+body {
+	max-width: 1600px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}

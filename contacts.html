@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BECKS | КОНТАКТЫ</title>
+		<link rel="stylesheet" href="/styles/base.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="/index.html"><img src="/media/logo.svg" alt="Логотип" /></a>
+				</div>
+				<nav>
+					<div class="menu-toggle" id="menuToggle">
+						<img src="/media/burger.svg" alt="Бургер меню" />
+					</div>
+					<ul class="menu" id="menu">
+						<li><a href="/about.html">О бренде</a></li>
+						<li><a href="/products.html">Продукция</a></li>
+						<li><a href="/contacts.html">Контакты</a></li>
+						<li><a href="/news.html">Новости</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main></main>
+
+		<footer>
+			<div class="footer-banner2">
+				<div>
+					Создайте <br />
+					<span class="">уникальные</span> <br />
+					мини щитки
+				</div>
+				<div class="btn1">Скоро</div>
+			</div>
+
+			<div class="footer-block-text">
+				<ul class="menu-footer list-style-none">
+					<li>Cоциальные сети</li>
+					<li>
+						<a class="white-text" href="">
+							<img class="link-logo" src="../media/vk-logo.svg" alt="" />
+							Vkontakte
+						</a>
+					</li>
+					<li>
+						<a class="white-text" href="">
+							<img class="link-logo" src="../media/tg-logo.svg" alt="" />
+							Telegram
+						</a>
+					</li>
+					<li>
+						<a class="white-text" href="">
+							<img class="link-logo" src="../media/tt-logo.svg" alt="" />
+							TikTok
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-block-text">
+				<ul>
+					<li><a href="/about.html">О бренде</a></li>
+					<li><a href="/products.html">Продукция</a></li>
+					<li><a href="/contacts.html">Контакты</a></li>
+					<li><a href="/news.html">Новости</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-banner1">
+				<img src="../media/logo2.svg" alt="logo2" />
+				<p>2024-2025. Becks. Все права защищены. <br />Официальный сайт бренда Becks</p>
+			</div>
+		</footer>
+
+		<script>
+			const menuToggle = document.getElementById("menuToggle");
+			const menu = document.getElementById("menu");
+
+			menuToggle.addEventListener("click", () => {
+				menu.classList.toggle("active");
+				menuToggle.classList.toggle("active");
+			});
+		</script>
+	</body>
+</html>

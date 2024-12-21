@@ -1,0 +1,11 @@
+main > section {
+	flex: 1;
+	margin: 0 auto;
+	width: 85%;
+	padding: 15px;
+}
+
+main > section + section {
+	border-top: 1px solid transparent;
+	border-image: radial-gradient(circle at center, #00c0fe, transparent 91%) 1;
+}
