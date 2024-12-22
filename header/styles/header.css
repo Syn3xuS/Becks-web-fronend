@@ -143,8 +143,7 @@ nav ul.menu li a:hover {
     height: 100vh; 
     background-color: #1E1E1E; 
     /* padding-top: 160px;  */
-    /* padding-bottom: 160px;  */
-       
+    /* padding-bottom: 160px;  */       
     align-items: center;
     justify-content: center;
 }
@@ -166,6 +165,13 @@ nav ul.menu li a:hover {
     nav ul.menu li a:hover {
         color: #00C0FE; 
     }    
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex; 
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
