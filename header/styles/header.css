@@ -174,7 +174,7 @@ nav ul.menu li a:hover {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1440px) {
     header {
         height: 63px; 
         padding: 10px 0; 
