@@ -71,11 +71,12 @@ p,
 	display: flex;
 
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .card-margin {
 	margin: 32px 50px;
+	margin-top: 0;
 }
 
 @media (max-width: 768px) {
