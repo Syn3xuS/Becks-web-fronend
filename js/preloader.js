@@ -1,9 +1,11 @@
-preload = ```
+const preload = ```
 	<preloader>
-        <video autoplay loop muted playsinline>
-            <source src="/media/PRELOADER_LOGO.webm" type="video/webm" />
-            <source src="/media/PRELOADER_LOGO.gif" type="video/gif" />
-            Ваш браузер не поддерживает встроенные видео :(
-        </video>
-    </preloader>
+			<img src="/media/PRELOADER_LOGO.gif" />
+	</preloader>
 ```;
+
+document.body.innerHTML += preload;
+document.addEventListener("DOMContentLoaded", () => {
+	const preloader = document.querySelector("preloader");
+	if (preloader) preloader.remove();
+});

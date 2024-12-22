@@ -6,10 +6,22 @@ preloader > * {
 }
 
 preloader {
-	height: calc(100vh - 63px);
+	height: calc(100vh - 120px);
 	position: relative;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media (max-width: 768px) {
+	preloader {
+		height: calc(100vh - 63px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	preloader {
+		height: calc(100vh - 63px);
+	}
 }
