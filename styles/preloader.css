@@ -1,0 +1,15 @@
+preloader > * {
+	display: block;
+	width: 15%;
+	max-width: 900px;
+	min-width: 100px;
+}
+
+preloader {
+	height: calc(100vh - 63px);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
