@@ -46,14 +46,59 @@ main > section > * {
 	rotate: -44.25deg;
 }
 
+.card-type-v {
+	margin: 0 15px;
+	overflow: hidden;
+
+	width: 300px;
+	height: 400px;
+	border: solid 1px #5a5a5a;
+	border-radius: 30px;
+	background: linear-gradient(transparent 0% 80%, #00c0fe 250%);
+}
+
+.card-type-g {
+	margin: 0 15px;
+	overflow: hidden;
+	width: 400px;
+	height: 335px;
+	border: solid 1px #5a5a5a;
+	background: linear-gradient(transparent 0% 80%, #00c0fe 250%);
+}
+
+.card-type-v img,
+.card-type-g img {
+	display: block;
+	width: 100%;
+	max-height: 90%;
+}
+
 @media (max-width: 768px) {
 	main > section {
 		padding-block: var(--section-padding-block-m);
+	}
+
+	.card-type-v {
+		width: 150px;
+		height: 200px;
+	}
+
+	.card-type-g {
+		width: 150px;
+		height: 120px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	main > section {
 		padding-block: var(--section-padding-block-t);
+	}
+	.card-type-v {
+		width: 150px;
+		height: 200px;
+	}
+	.card-type-g {
+		width: 200px;
+		height: 130px;
 	}
 }
