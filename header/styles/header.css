@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    position: fixed;
+    /* position: fixed; */
     background-color: black;
     color: #fff; 
     padding: 20px 0; 
