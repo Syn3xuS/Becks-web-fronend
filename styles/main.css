@@ -81,6 +81,9 @@ main > section > * {
 	max-height: 80%;
 }
 
+.hidden {
+	display: none;
+}
 @media (max-width: 768px) {
 	main > section {
 		padding-block: var(--section-padding-block-m);
