@@ -51,8 +51,13 @@ ul {
 	font-size: var(--fs3-d);
 }
 
-p {
+p,
+.fs4 {
 	font-size: var(--fs4-d);
+}
+
+.fs6 {
+	font-size: var(--fs6-d);
 }
 
 .f-onest {
@@ -64,6 +69,7 @@ p {
 
 .card-row-column {
 	display: flex;
+
 	justify-content: space-between;
 	align-items: center;
 }
@@ -89,8 +95,13 @@ p {
 		font-size: var(--fs3-m);
 	}
 
-	p {
+	p,
+	.fs4 {
 		font-size: var(--fs4-m);
+	}
+
+	.fs6 {
+		font-size: var(--fs6-m);
 	}
 }
 
@@ -99,14 +110,19 @@ p {
 		font-size: var(--fs1-t);
 	}
 
+	.fs2 {
+		font-size: var(--fs2-t);
+	}
 	.fs3 {
 		font-size: var(--fs3-t);
 	}
 
-	.fs2 {
-		font-size: var(--fs2-t);
-	}
-	p {
+	p,
+	.fs4 {
 		font-size: var(--fs4-t);
+	}
+
+	.fs6 {
+		font-size: var(--fs6-t);
 	}
 }

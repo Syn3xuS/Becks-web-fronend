@@ -48,7 +48,6 @@ main > section > * {
 
 .card-type-v {
 	margin: 0 15px;
-	position: relative;
 
 	width: 300px;
 	height: 400px;
@@ -59,20 +58,25 @@ main > section > * {
 
 .card-type-g {
 	margin: 0 15px;
-	position: relative;
-
 	width: 400px;
 	height: 335px;
 	border: solid 1px #5a5a5a;
 	background: linear-gradient(transparent 0% 80%, #00c0fe 250%);
 }
 
+.card-type-v > p,
+.card-type-g > p {
+	margin: 0 auto;
+	width: 90%;
+}
+.card-type-v > p > span,
+.card-type-g > p > span {
+	display: inline-block;
+	width: 100%;
+}
+
 .card-type-v img,
 .card-type-g img {
-	position: absolute;
-	left: 0;
-	top: 0;
-
 	width: 100%;
 	max-height: 80%;
 }
