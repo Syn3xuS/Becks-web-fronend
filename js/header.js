@@ -1,4 +1,4 @@
-const header = ```
+const header = `
 <header>
 	<div class="container">
 		<div class="logo">
@@ -26,7 +26,7 @@ const header = ```
 			</ul>
 		</nav>
 	</div>
-</header>;
-```;
+</header>
+`;
 
 document.body.innerHTML += header;
