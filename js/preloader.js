@@ -5,6 +5,7 @@ const preload = `
 `;
 
 document.body.innerHTML += preload;
+window.scrollTo(0, 0);
 document.body.classList.toggle("stop-scroll");
 
 document.addEventListener("DOMContentLoaded", () => {
