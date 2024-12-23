@@ -5,5 +5,5 @@ menuToggle.addEventListener("click", () => {
 	menu.classList.toggle("active");
 	menuToggle.classList.toggle("active");
 	window.scrollTo(0, 0);
-	document.bodys.classList.toggle("stop-scroll");
+	document.body.classList.toggle("stop-scroll");
 });
