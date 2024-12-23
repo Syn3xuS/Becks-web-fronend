@@ -27,6 +27,10 @@ body {
 	flex-direction: column;
 }
 
+.stop-scroll {
+	overflow: hidden;
+}
+
 a {
 	text-decoration: none;
 }
