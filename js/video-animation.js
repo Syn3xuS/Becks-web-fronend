@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Процент прокрутки': Math.round(scrollPercent) + '%'
         });
 
-        // Воспроизводим видео при достижении 46% прокрутки
+        // Воспроизводим видео при достижении 40% прокрутки
         if (scrollPercent >= 40 && !hasPlayed) {
             video.classList.remove('hidden');
             hasPlayed = true;
