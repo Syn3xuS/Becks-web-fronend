@@ -1,109 +1,243 @@
+/* Onest Font */
 @font-face {
-	font-family: "Onest";
-	src: url("../fonts/Onest-Black.woff2") format("woff2"),
-		url("../fonts/Onest-Bold.woff2") format("woff2"),
-		url("../fonts/Onest-ExtraBold.woff2") format("woff2"),
-		url("../fonts/Onest-ExtraLight.woff2") format("woff2"),
-		url("../fonts/Onest-Light.woff2") format("woff2"),
-		url("../fonts/Onest-Medium.woff2") format("woff2"),
-		url("../fonts/Onest-Regular.woff2") format("woff2"),
-		url("../fonts/Onest-SemiBold.woff2") format("woff2"),
-		url("../fonts/Onest-Thin.woff2") format("woff2");
-	font-weight: normal;
-	font-style: normal;
+    font-family: "Onest";
+    src: url("../fonts/Onest-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "TTInterfaces";
-	src: url("../fonts/TTInterfaces-Black.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-BlackItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Bold.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-BoldItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-ExtraBold.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-ExtraBoldItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-ExtraLight.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-ExtraLightItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Italic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Light.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-LightItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Medium.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-MediumItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Regular.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-SemiBold.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-SemiBoldItalic.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-Thin.woff2") format("woff2"),
-		url("../fonts/TTInterfaces-ThinItalic.woff2") format("woff2");
-	font-weight: normal;
-	font-style: normal;
+    font-family: "Onest";
+    src: url("../fonts/Onest-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("../fonts/Onest-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* TT Interfaces Font */
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-MediumItalic.woff2") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-BoldItalic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-BlackItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-ExtraBoldItalic.woff2") format("woff2");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-ThinItalic.woff2") format("woff2");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-LightItalic.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-ExtraLightItalic.woff2") format("woff2");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Interfaces";
+    src: url("../fonts/TTInterfaces-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Root variables */
 :root {
-	--white-text: #ffffff;
-	--blue-text: #00c0fe;
-	--gray-text: #7b7b7b;
-	--over-gray-text: #121212;
-	--black-text: #000000;
-	--border-color: #d6d6d6;
-	--border-section-color: radial-gradient(circle at center, #00c0fe, transparent 91%);
-	--background-page: #000000;
-	--background-btn1: #00c0fe;
+    --white-text: #ffffff;
+    --blue-text: #00c0fe;
+    --gray-text: #7b7b7b;
+    --over-gray-text: #121212;
+    --black-text: #000000;
+    --border-color: #d6d6d6;
+    --border-section-color: radial-gradient(circle at center, #00c0fe, transparent 91%);
+    --background-page: #000000;
+    --background-btn1: #00c0fe;
 
-	--section-padding-block-d: 100px;
-	--section-padding-block-t: 80px;
-	--section-padding-block-m: 40px;
+    --section-padding-block-d: 100px;
+    --section-padding-block-t: 80px;
+    --section-padding-block-m: 40px;
 
-	/* 
-d - desktop 
-t - tablet
-m - mobile
+    --fs0-d: 16px;
+    --fs0-t: 8px;
+    --fs0-m: 18px;
 
-16 - 8 - 18(бургер) - навигация
-80 - 48 - 22 - заголовок1
-80 - 43 - 20 - заголовок2
-30 - 16 - 15 - заголовок3
-20 - 12 - 12 - текст
-16 - 8  - 8 - текст баннера 1 в футере
-16 - 8  - 8 - текст футер
-35 - 18 - 18 - текст1 баннер2 в футере
-12 - 6  - 6 - (кнопка) текст2 баннер2 в футере
-*/
+    --fs1-d: 80px;
+    --fs1-t: 48px;
+    --fs1-m: 22px;
 
-	--fs0-d: 16px;
-	--fs0-t: 8px;
-	--fs0-m: 18px;
+    --fs2-d: 80px;
+    --fs2-t: 44px;
+    --fs2-m: 20px;
 
-	--fs1-d: 80px;
-	--fs1-t: 48px;
-	--fs1-m: 22px;
+    --fs3-d: 30px;
+    --fs3-t: 16px;
+    --fs3-m: 14px;
 
-	--fs2-d: 80px;
-	--fs2-t: 44px;
-	--fs2-m: 20px;
+    --fs4-d: 16px;
+    --fs4-t: 8px;
+    --fs4-m: 8px;
 
-	--fs3-d: 30px;
-	--fs3-t: 16px;
-	--fs3-m: 14px;
+    --fs5-d: 35px;
+    --fs5-t: 18px;
+    --fs5-m: 18px;
 
-	--fs4-d: 16px;
-	--fs4-t: 8px;
-	--fs4-m: 8px;
+    --fs6-d: 12px;
+    --fs6-t: 6px;
+    --fs6-m: 6px;
 
-	--fs5-d: 35px;
-	--fs5-t: 18px;
-	--fs5-m: 18px;
+    --ls-d: 17px;
+    --ls-t: 9px;
+    --ls-m: 9px;
 
-	--fs6-d: 12px;
-	--fs6-t: 6px;
-	--fs6-m: 6px;
-
-	/*Логотипы социалок*/
-	--ls-d: 17px;
-	--ls-t: 9px;
-	--ls-m: 9px;
-
-	/*правый отступ социалок*/
-	--lmr-d: 8px;
-	--lmr-t: 4px;
-	--lmr-m: 4px;
+    --lmr-d: 8px;
+    --lmr-t: 4px;
+    --lmr-m: 4px;
 }
-
